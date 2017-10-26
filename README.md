@@ -1,5 +1,5 @@
 # webpack-simple
-
+test
 ``` bash
 $ npm install -g vue-cli
 $ vue init wisedu/bh-vue2-mobile ${your_project}
