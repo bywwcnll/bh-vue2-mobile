@@ -2,8 +2,8 @@
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init wisedu/bh-vue2-mobile ${your_project}
-$ cd my-project
+$ vue init bywwcnll/bh-vue2-mobile ${your_project}
+$ cd ${your_project}
 $ npm install
 $ npm run dev
 ```

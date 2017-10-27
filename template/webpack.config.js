@@ -13,6 +13,13 @@ module.exports = {
       test: /\.vue$/,
       loader: 'vue-loader',
       options: {
+        loaders: {
+          scss: [
+              'vue-style-loader',
+              { loader: 'css-loader' },
+	          { loader: 'sass-loader' }
+          ]
+        },
         postcss: [require('postcss-cssnext')({
             features: {
               rem: false
